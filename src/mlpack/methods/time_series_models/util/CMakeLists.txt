@@ -1,13 +1,8 @@
 # Define the files we need to compile
 # Anything not in this list will not be compiled into mlpack.
 set(SOURCES
-  persistence.hpp
-  persistence_impl.hpp
-  seasonal_naive.hpp
-  seasonal_naive_impl.hpp
+  lag.hpp
 )
-
-add_subdirectory(util)
 
 # Add directory name to sources.
 set(DIR_SRCS)
